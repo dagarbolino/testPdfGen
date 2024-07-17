@@ -1,0 +1,168 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 320px;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 596px;
+  height: 842px;
+  padding: 0;
+  border: 5px solid rgb(221, 124, 230);
+  margin: 0 auto;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+.oblique-separator {
+  width: 10px;
+  height: 100%;
+  background: #1a1a1a;
+  position: relative;
+  transform: skewX(-10deg);
+  margin: 0 10px;
+
+}
+
+.mainGauche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+.mainDroite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.infoUser {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+
+  width: 150px;
+}
+
+.blockInputName {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin: 5px auto;
+  width: 120px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  width: 100%;
+  margin: 2px auto;
+}
+
+.inputFileUser {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  margin: 5px auto;
+  width: 120px;
+  height: auto;
+
+}
+
+.imgUser img {
+  width: 100px;
+  height: auto;
+  border-radius: 3px;
+  margin: 0 auto;
+
+}
+
+.hideVertical {
+  width: 2px;
+  height: 98%;
+  background-color: rgb(221, 124, 230);
+  margin: 5px 0;
+
+
+
+
+}
